@@ -22,6 +22,17 @@ This dataset contains labeled chest X-ray images divided into train, test, and v
 
 ## Project Structure
 
+chest_xray/
+├── train/
+│ ├── NORMAL/
+│ └── PNEUMONIA/
+├── test/
+│ ├── NORMAL/
+│ └── PNEUMONIA/
+├── val/ (optional validation set)
+│ ├── NORMAL/
+│ └── PNEUMONIA/
+
 - `vgg16_pneumonia.h5` - Trained VGG16 model weights  
 - `resnet50_pneumonia.h5` - Trained ResNet50 model weights  
 - `pneumonia_detection.py` - Main Python script (with GUI)  
